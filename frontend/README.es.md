@@ -26,7 +26,7 @@
   </a>
 </p>
 
-Español | [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+Español | [English](README.eng.md) | [简体中文](README.md) | [日本語](./README.ja.md)
 
 ## Introducción
 
