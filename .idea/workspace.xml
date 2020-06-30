@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +19,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
+  <component name="ChangesViewManager" show_ignored="true">
     <option name="groupingKeys">
       <option value="directory" />
     </option>
@@ -115,7 +116,7 @@
       <workItem from="1593446932693" duration="704000" />
       <workItem from="1593505856994" duration="7548000" />
       <workItem from="1593532908850" duration="357000" />
-      <workItem from="1593533315701" duration="1298000" />
+      <workItem from="1593533315701" duration="1640000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1593446411827</created>
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593534594303</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial commit">
+      <created>1593534845332</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593534845332</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,10 +271,10 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1758" y="393" key="VCS.EditChangelistDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446781547" />
-    <state x="1520" y="258" key="Vcs.Push.Dialog.v2" timestamp="1593534599074">
+    <state x="1520" y="258" key="Vcs.Push.Dialog.v2" timestamp="1593534846319">
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
-    <state x="1520" y="258" key="Vcs.Push.Dialog.v2/0.0.2560.1044@0.0.2560.1044" timestamp="1593534599074" />
+    <state x="1520" y="258" key="Vcs.Push.Dialog.v2/0.0.2560.1044@0.0.2560.1044" timestamp="1593534846319" />
     <state x="1380" y="100" width="1070" height="844" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593447302849">
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
