@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/dashboard/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -42,7 +48,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -51,6 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RunManager" selected="npm.run dev">
@@ -118,6 +127,8 @@
       <workItem from="1593532908850" duration="357000" />
       <workItem from="1593533315701" duration="3767000" />
       <workItem from="1593608634977" duration="607000" />
+      <workItem from="1593684525009" duration="1747000" />
+      <workItem from="1593699839012" duration="11607000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1593446411827</created>
@@ -257,9 +268,13 @@
       <path value="$PROJECT_DIR$/vue-admin-template" />
     </ignored-roots>
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="0" width="1920" height="1044" key="#ESLint" timestamp="1593759466688">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="0" y="0" width="1920" height="1044" key="#ESLint/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593759466688" />
     <state x="1384" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593533858647">
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
@@ -272,10 +287,15 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1603" y="201" key="#run_dev/0.0.2560.1044@0.0.2560.1044" timestamp="1593534544323" />
-    <state x="1544" y="204" key="#检查" timestamp="1593526538839">
-      <screen x="0" y="0" width="2560" height="1044" />
+    <state x="843" y="189" key="#检查" timestamp="1593684903119">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state x="843" y="189" key="#检查/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593684903119" />
     <state x="1544" y="204" key="#检查/0.0.2560.1044@0.0.2560.1044" timestamp="1593526538839" />
+    <state x="236" y="370" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593759358536">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="236" y="370" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593759358536" />
     <state x="1560" y="77" key="CommitChangelistDialog2" timestamp="1593446976517">
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
@@ -296,29 +316,34 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1692" y="181" key="Github.UntrackedFilesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446325572" />
-    <state width="1202" height="274" key="GridCell.Tab.0.bottom" timestamp="1593545129008">
-      <screen x="0" y="0" width="2560" height="1044" />
+    <state width="912" height="274" key="GridCell.Tab.0.bottom" timestamp="1593741082509">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state width="912" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593741082509" />
     <state width="1202" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129008" />
-    <state width="1202" height="274" key="GridCell.Tab.0.center" timestamp="1593545129007">
-      <screen x="0" y="0" width="2560" height="1044" />
+    <state width="912" height="274" key="GridCell.Tab.0.center" timestamp="1593741082508">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state width="912" height="274" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593741082508" />
     <state width="1202" height="274" key="GridCell.Tab.0.center/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129007" />
-    <state width="1202" height="274" key="GridCell.Tab.0.left" timestamp="1593545129007">
-      <screen x="0" y="0" width="2560" height="1044" />
+    <state width="912" height="274" key="GridCell.Tab.0.left" timestamp="1593741082508">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state width="912" height="274" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593741082508" />
     <state width="1202" height="274" key="GridCell.Tab.0.left/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129007" />
-    <state width="1202" height="274" key="GridCell.Tab.0.right" timestamp="1593545129008">
-      <screen x="0" y="0" width="2560" height="1044" />
+    <state width="912" height="274" key="GridCell.Tab.0.right" timestamp="1593741082508">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state width="912" height="274" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593741082508" />
     <state width="1202" height="274" key="GridCell.Tab.0.right/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129008" />
     <state x="1796" y="285" key="RollbackChangesDialog" timestamp="1593446832659">
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1796" y="285" key="RollbackChangesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446832659" />
-    <state x="1421" y="157" key="SettingsEditor" timestamp="1593534637934">
-      <screen x="0" y="0" width="2560" height="1044" />
+    <state x="643" y="134" key="SettingsEditor" timestamp="1593759377098">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state x="643" y="134" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593759377098" />
     <state x="1421" y="157" key="SettingsEditor/0.0.2560.1044@0.0.2560.1044" timestamp="1593534637934" />
     <state x="1772" y="434" key="VCS.ChangelistChooser" timestamp="1593446847843">
       <screen x="0" y="0" width="2560" height="1044" />
