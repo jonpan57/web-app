@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="initial commit" />
+    <list default="true" id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +63,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="npm.run dev">
     <configuration default="true" type="Python.FlaskServer">
@@ -136,6 +138,9 @@
       <workItem from="1594363449207" duration="34000" />
       <workItem from="1594363539249" duration="599000" />
       <workItem from="1594379237638" duration="2529000" />
+      <workItem from="1594434335952" duration="127000" />
+      <workItem from="1594434474544" duration="222000" />
+      <workItem from="1594434707956" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1593446411827</created>
@@ -263,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594434289120</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="initial commit">
+      <created>1594434350525</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1594434350525</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,11 +387,11 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1796" y="285" key="RollbackChangesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446832659" />
-    <state x="358" y="228" key="SettingsEditor" timestamp="1594380805463">
+    <state x="358" y="228" key="SettingsEditor" timestamp="1594434695546">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="643" y="134" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593759377098" />
-    <state x="358" y="228" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1594380805463" />
+    <state x="358" y="228" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1594434695546" />
     <state x="1421" y="157" key="SettingsEditor/0.0.2560.1044@0.0.2560.1044" timestamp="1593534637934" />
     <state x="1772" y="434" key="VCS.ChangelistChooser" timestamp="1593446847843">
       <screen x="0" y="0" width="2560" height="1044" />
@@ -389,10 +401,10 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1758" y="393" key="VCS.EditChangelistDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446781547" />
-    <state x="1120" y="258" key="Vcs.Push.Dialog.v2" timestamp="1594434291294">
+    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1594434588846">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1120" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1594434291294" />
+    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1594434588846" />
     <state x="1520" y="258" key="Vcs.Push.Dialog.v2/0.0.2560.1044@0.0.2560.1044" timestamp="1593535430501" />
     <state x="1380" y="100" width="1070" height="844" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593447302849">
       <screen x="0" y="0" width="2560" height="1044" />
