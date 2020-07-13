@@ -1,14 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+// 安装路由
 Vue.use(Router)
 
-/* Layout */
+// 导入布局
 import Layout from '@/layout'
 
 /**
  * Note: sub-menu only appear when route children.length >= 1
- * Detail see: https://panjiachen.github.io/vue-element-admin-site/guide/essentials/router-and-nav.html
+ * Detail see: https://panjiachen.gitee.io/vue-element-admin-site/zh/guide/essentials/router-and-nav.html#%E9%85%8D%E7%BD%AE%E9%A1%B9
  *
  * hidden: true                   if set true, item will not show in the sidebar(default is false)
  * alwaysShow: true               if set true, will always show the root menu
@@ -33,12 +34,14 @@ import Layout from '@/layout'
 export const constantRoutes = [
   {
     path: '/login',
+    name: 'Login',
     component: () => import('@/views/login/index'),
     hidden: true
   },
 
   {
     path: '/404',
+    name: '404',
     component: () => import('@/views/404'),
     hidden: true
   },
@@ -51,28 +54,28 @@ export const constantRoutes = [
       path: 'dashboard',
       name: 'Dashboard',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: '主页', icon: 'dashboard' }
+      meta: { title: '主页', icon: 'el-icon-odometer' }
     }]
   },
 
   {
-    path: '/example',
+    path: '/asset',
     component: Layout,
-    redirect: '/example/table',
-    name: 'Example',
-    meta: { title: 'Example', icon: 'el-icon-s-help' },
+    redirect: '/asset/network',
+    name: 'Asset',
+    meta: { title: '资产管理', icon: 'el-icon-coin' },
     children: [
       {
-        path: 'table',
-        name: 'Table',
-        component: () => import('@/views/table/index'),
-        meta: { title: 'Table', icon: 'table' }
+        path: 'network',
+        name: 'Network',
+        component: () => import('@/views/asset/network/index'),
+        meta: { title: '网络设备', icon: 'el-icon-connection' }
       },
       {
-        path: 'tree',
-        name: 'Tree',
-        component: () => import('@/views/tree/index'),
-        meta: { title: 'Tree', icon: 'tree' }
+        path: 'physical',
+        name: 'Physical',
+        component: () => import('@/views/asset/physical/index'),
+        meta: { title: '物理机', icon: 'el-icon-monitor' }
       }
     ]
   },
