@@ -54,7 +54,7 @@ export const constantRoutes = [
       path: 'dashboard',
       name: 'Dashboard',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: '主页', icon: 'el-icon-odometer' }
+      meta: { title: '首页', icon: 'el-icon-odometer' }
     }]
   },
 
@@ -76,6 +76,58 @@ export const constantRoutes = [
         name: 'Physical',
         component: () => import('@/views/asset/physical/index'),
         meta: { title: '物理机', icon: 'el-icon-monitor' }
+      },
+      {
+        path: 'storage',
+        name: 'Storage',
+        component: () => import('@/views/asset/storage/index'),
+        meta: { title: '存储设备', icon: 'el-icon-receiving' }
+      },
+      {
+        path: 'power',
+        name: 'Power',
+        component: () => import('@/views/asset/power/index'),
+        meta: { title: '动环设备', icon: 'el-icon-monitor' }
+      },
+      {
+        path: 'room',
+        name: 'Room',
+        component: () => import('@/views/asset/room/index'),
+        meta: { title: '机房', icon: 'el-icon-house' }
+      }
+    ]
+  },
+
+  {
+    path: '/business',
+    component: Layout,
+    redirect: '/business/network',
+    name: 'Business',
+    meta: { title: '业务管理', icon: 'el-icon-suitcase-1' },
+    children: [
+      {
+        path: 'network',
+        name: 'Network',
+        component: () => import('@/views/asset/network/index'),
+        meta: { title: '网络设备', icon: 'el-icon-connection' }
+      },
+      {
+        path: 'physical',
+        name: 'Physical',
+        component: () => import('@/views/asset/physical/index'),
+        meta: { title: '物理机', icon: 'el-icon-monitor' }
+      },
+      {
+        path: 'virtual',
+        name: 'Virtual',
+        component: () => import('@/views/business/virtual/index'),
+        meta: { title: '虚拟机', icon: 'el-icon-cloudy' }
+      },
+      {
+        path: 'room',
+        name: 'Room',
+        component: () => import('@/views/asset/room/index'),
+        meta: { title: '机房', icon: 'el-icon-house' }
       }
     ]
   },
