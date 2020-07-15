@@ -2,13 +2,14 @@
   <div class="app-container">
     <!--  主机群多级下来框  -->
     <el-cascader
-      :options="hostgroup"
       v-model="groupids"
+      :options="hostgroup"
       placeholder="所有"
       expand-trigger="hover"
       change-on-select
       size="mini"
-      @visible-change="getHost($event,groupids)"/>
+      @visible-change="getHost($event,groupids)"
+    />
 
     <!--  创建和导入设备按钮  -->
     <el-button type="primary" size="mini" style="margin-left: 11px" @click="dialogTableVisible = true">添加设备</el-button>
@@ -18,10 +19,11 @@
       :visible.sync="dialogTableVisible"
       :close-on-click-modal="false"
       :close-on-press-escape="false"
-      title="收货地址">
+      title="收货地址"
+    >
       <el-form :inline="true">
         <el-form-item label="设备名称">
-          <el-input/>
+          <el-input />
         </el-form-item>
       </el-form>
       <span slot="footer" class="dialog-footer">
@@ -42,17 +44,18 @@
           :model="form"
           size="mini"
           label-position="right"
-          label-width="55px">
+          label-width="55px"
+        >
 
           <el-form-item>
             <el-col :span="12">
               <el-form-item label="名称">
-                <el-input v-model="input"/>
+                <el-input v-model="input" />
               </el-form-item>
             </el-col>
             <el-col :span="12">
               <el-form-item label="IP地址">
-                <el-input v-model="input"/>
+                <el-input v-model="input" />
               </el-form-item>
             </el-col>
           </el-form-item>
@@ -60,12 +63,12 @@
           <el-form-item>
             <el-col :span="12">
               <el-form-item label="品牌">
-                <el-input v-model="input"/>
+                <el-input v-model="input" />
               </el-form-item>
             </el-col>
             <el-col :span="12">
               <el-form-item label="型号">
-                <el-input v-model="input"/>
+                <el-input v-model="input" />
               </el-form-item>
             </el-col>
           </el-form-item>
@@ -78,7 +81,8 @@
                     v-for="item in options"
                     :key="item.value"
                     :label="item.label"
-                    :value="item.value"/>
+                    :value="item.value"
+                  />
                 </el-select>
               </el-form-item>
             </el-col>
@@ -89,7 +93,8 @@
                     v-for="item in options"
                     :key="item.value"
                     :label="item.label"
-                    :value="item.value"/>
+                    :value="item.value"
+                  />
                 </el-select>
               </el-form-item>
             </el-col>
@@ -114,26 +119,30 @@
           :default-sort="{prop: 'name'}"
           style="width: 100%"
           tooltip-effect="dark"
-          size="medium">
+          size="medium"
+        >
 
           <el-table-column
             type="selection"
-            align="center"/>
+            align="center"
+          />
 
           <el-table-column
             label="状态"
             align="center"
-            width="60px">
+            width="60px"
+          >
             <template slot-scope="host">
-              <svg-icon v-if="host.row.snmp_available==='1'" icon-class="round_check_fill"/>
-              <svg-icon v-else-if="host.row.snmp_available==='2'" icon-class="round_close_fill"/>
-              <svg-icon v-else icon-class="round_question_fill"/>
+              <svg-icon v-if="host.row.snmp_available==='1'" icon-class="round_check_fill" />
+              <svg-icon v-else-if="host.row.snmp_available==='2'" icon-class="round_close_fill" />
+              <svg-icon v-else icon-class="round_question_fill" />
             </template>
           </el-table-column>
 
           <el-table-column
             label="设备名称"
-            sortable>
+            sortable
+          >
             <template slot-scope="host">
               <el-button type="text" size="mini" @click="dialogTableVisible = true">
                 {{ host.row.name }}
@@ -144,49 +153,58 @@
           <el-table-column
             prop="inventory.asset_tag"
             label="设备编号"
-            sortable/>
+            sortable
+          />
 
           <el-table-column
             prop="inventory.date_hw_install"
             label="安装时间"
-            sortable/>
+            sortable
+          />
 
           <el-table-column
             prop="inventory.vendor"
             label="设备品牌"
-            sortable/>
+            sortable
+          />
 
           <el-table-column
             prop="inventory.model"
             label="设备型号"
-            sortable/>
+            sortable
+          />
 
           <el-table-column
             prop="inventory.type"
             label="设备类型"
-            sortable/>
+            sortable
+          />
 
           <el-table-column
             prop="interfaces[0].ip"
             label="IP地址"
-            sortable/>
+            sortable
+          />
 
           <el-table-column
             prop="inventory.tag"
             label="应用系统"
-            sortable/>
+            sortable
+          />
 
           <el-table-column
             prop="status"
             label="启用/禁用"
             sortable
-            align="center">
+            align="center"
+          >
             <template slot-scope="host">
               <el-switch
                 v-model="host.row.status"
                 active-color="#67C23A"
                 inactive-color="#F56C6C"
-                @change="handleSwitch(scope.row,scope.$index)"/>
+                @change="handleSwitch(scope.row,scope.$index)"
+              />
             </template>
           </el-table-column>
 
@@ -199,7 +217,8 @@
         :page-size="20"
         layout="prev, pager, next, sizes"
         @current-change="handleCurrentChange"
-        @size-change="handleSizeChange"/>
+        @size-change="handleSizeChange"
+      />
 
       <el-button type="text">启用</el-button>
       <el-button type="text">禁用</el-button>
@@ -219,16 +238,16 @@ export default {
       filterVisible: false,
       dialogTableVisible: false,
       host: [],
-      hostgroup: [],
+      hostGroup: [],
       currentPage: 1,
       pageSize: 20
     }
   },
   mounted() {
-    this.getHostgroup()
+    this.getHostGroup()
   },
   methods: {
-    getHostgroup() {
+    getHostGroup() {
       var that = this
       const path = 'http://127.0.0.1:5000/asset/network'
       axios.get(path).then(function(response) {
