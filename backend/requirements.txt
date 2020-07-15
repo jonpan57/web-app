@@ -1,4 +1,6 @@
 Flask
 Flask-Cors
-Flask_Script
+Flask-Login
+Flask-Script
+Flask-Migrate
 Flask-SQLAlchemy
