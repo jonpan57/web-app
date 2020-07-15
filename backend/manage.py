@@ -1,9 +1,8 @@
-from app import create_app, db
+from .app import create_app, db
 from flask_script import Manager, Shell
 from flask_migrate import MigrateCommand
 
 import config
-
 
 def _make_context():
     return dict(app=app, db=db)
@@ -11,7 +10,7 @@ def _make_context():
 
 app = create_app(config)
 manager = Manager(app)
-manager.add_command('shell', Shell(_make_context=_make_context()))
+manager.add_command('shell', Shell(make_context=_make_context()))
 manager.add_command('db', MigrateCommand)
 '''
 启动命令：
