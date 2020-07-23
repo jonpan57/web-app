@@ -41,11 +41,10 @@
         </span>
       </el-form-item>
 
-      <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">Login</el-button>
+      <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">登 录</el-button>
 
       <div class="tips">
-        <span style="margin-right:20px;">username: admin</span>
-        <span> password: any</span>
+        <span>信息技术所广州南分所</span>
       </div>
 
     </el-form>
@@ -198,9 +197,7 @@ $light_gray:#eee;
     margin-bottom: 10px;
 
     span {
-      &:first-of-type {
-        margin-right: 16px;
-      }
+      float: right;
     }
   }
 

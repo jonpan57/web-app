@@ -11,7 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web-app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Breadcrumb/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/login/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +71,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/frontend/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -164,6 +169,7 @@
       <workItem from="1595054295204" duration="1080000" />
       <workItem from="1595083024474" duration="863000" />
       <workItem from="1595230462629" duration="92000" />
+      <workItem from="1595435293239" duration="4131000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1593446411827</created>
@@ -383,10 +389,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="1920" height="1044" key="#ESLint" timestamp="1593759466688">
+    <state x="0" y="0" width="1920" height="1044" key="#ESLint" timestamp="1595471334951">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="0" y="0" width="1920" height="1044" key="#ESLint/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593759466688" />
+    <state x="0" y="0" width="1920" height="1044" key="#ESLint/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595471334951" />
     <state x="642" y="302" key="#HTTP_Proxy" timestamp="1595054320209">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -442,28 +448,28 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1692" y="181" key="Github.UntrackedFilesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446325572" />
-    <state width="912" height="274" key="GridCell.Tab.0.bottom" timestamp="1594801351891">
+    <state width="912" height="285" key="GridCell.Tab.0.bottom" timestamp="1595471265829">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="912" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593741082509" />
+    <state width="912" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595471265829" />
     <state width="912" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351891" />
     <state width="1202" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129008" />
-    <state width="912" height="274" key="GridCell.Tab.0.center" timestamp="1594801351889">
+    <state width="912" height="285" key="GridCell.Tab.0.center" timestamp="1595471265829">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="912" height="274" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593741082508" />
+    <state width="912" height="285" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595471265829" />
     <state width="912" height="274" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351889" />
     <state width="1202" height="274" key="GridCell.Tab.0.center/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129007" />
-    <state width="912" height="274" key="GridCell.Tab.0.left" timestamp="1594801351888">
+    <state width="912" height="285" key="GridCell.Tab.0.left" timestamp="1595471265829">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="912" height="274" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593741082508" />
+    <state width="912" height="285" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595471265829" />
     <state width="912" height="274" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351888" />
     <state width="1202" height="274" key="GridCell.Tab.0.left/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129007" />
-    <state width="912" height="274" key="GridCell.Tab.0.right" timestamp="1594801351890">
+    <state width="912" height="285" key="GridCell.Tab.0.right" timestamp="1595471265829">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="912" height="274" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593741082508" />
+    <state width="912" height="285" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595471265829" />
     <state width="912" height="274" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351890" />
     <state width="1202" height="274" key="GridCell.Tab.0.right/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129008" />
     <state width="1872" height="338" key="GridCell.Tab.1.bottom" timestamp="1594713238945">
@@ -518,10 +524,11 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1796" y="285" key="RollbackChangesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446832659" />
-    <state x="851" y="237" key="SettingsEditor" timestamp="1595230553007">
-      <screen x="0" y="0" width="1920" height="1044" />
+    <state x="2771" y="245" key="SettingsEditor" timestamp="1595420389432">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="643" y="134" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593759377098" />
+    <state x="2771" y="245" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595420389432" />
     <state x="851" y="237" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1595230553007" />
     <state x="430" y="147" key="SettingsEditor/0.0.2560.1044@0.0.2560.1044" timestamp="1594818044287" />
     <state x="1772" y="434" key="VCS.ChangelistChooser" timestamp="1593446847843">
@@ -541,9 +548,10 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1380" y="100" width="1070" height="844" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593447302849" />
-    <state x="1679" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594821728520">
-      <screen x="0" y="0" width="2560" height="1044" />
+    <state x="1259" y="435" width="362" height="173" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595471259054">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state x="1259" y="435" width="362" height="173" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595471259054" />
     <state x="1259" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1594305641925" />
     <state x="1679" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1044@0.0.2560.1044" timestamp="1594821728520" />
   </component>
