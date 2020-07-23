@@ -233,6 +233,7 @@
 import axios from 'axios'
 
 export default {
+  name: 'Network',
   data() {
     return {
       filterVisible: false,
