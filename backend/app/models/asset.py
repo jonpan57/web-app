@@ -23,9 +23,11 @@ class Idc(db.Model):  # 机房
     longitude = db.Column(db.Float)  # 机房纬度
     contact = db.Column(db.String(100))  # 联系人
     telephone = db.Column(db.String(100))  # 联系电话
+    network=db.Column(db.String(100))#机房网络
     bandwidth = db.Column(db.String(100))  # 机房带宽
+    ip_range = db.Column(db.Text())  # ip范围
     station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)
-
+    update_time = db.Column(db.Da)
 
 class Cabinet(db.Model):  # 机房
     __tablename__ = 'asset_cabinet'
