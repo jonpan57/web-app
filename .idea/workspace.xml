@@ -72,7 +72,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -168,6 +168,7 @@
       <workItem from="1595435293239" duration="7032000" />
       <workItem from="1595486481764" duration="7074000" />
       <workItem from="1595737127304" duration="4356000" />
+      <workItem from="1595775695514" duration="4107000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1593446411827</created>
@@ -412,9 +413,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="0" y="0" width="1920" height="1044" key="#ESLint/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595471334951" />
-    <state x="642" y="302" key="#HTTP_Proxy" timestamp="1595054320209">
-      <screen x="0" y="0" width="1920" height="1044" />
+    <state x="2562" y="312" key="#HTTP_Proxy" timestamp="1595833130540">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2562" y="312" key="#HTTP_Proxy/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595833130540" />
     <state x="642" y="302" key="#HTTP_Proxy/0.0.1920.1044@0.0.1920.1044" timestamp="1595054320209" />
     <state x="508" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594801347085">
       <screen x="0" y="0" width="1920" height="1044" />
@@ -467,28 +469,28 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1692" y="181" key="Github.UntrackedFilesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446325572" />
-    <state width="1872" height="285" key="GridCell.Tab.0.bottom" timestamp="1595556262602">
+    <state width="1872" height="285" key="GridCell.Tab.0.bottom" timestamp="1595766043721">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1872" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595556262602" />
+    <state width="1872" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595766043721" />
     <state width="912" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351891" />
     <state width="1202" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129008" />
-    <state width="1872" height="285" key="GridCell.Tab.0.center" timestamp="1595556262602">
+    <state width="1872" height="285" key="GridCell.Tab.0.center" timestamp="1595766043721">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1872" height="285" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595556262602" />
+    <state width="1872" height="285" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595766043721" />
     <state width="912" height="274" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351889" />
     <state width="1202" height="274" key="GridCell.Tab.0.center/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129007" />
-    <state width="1872" height="285" key="GridCell.Tab.0.left" timestamp="1595556262602">
+    <state width="1872" height="285" key="GridCell.Tab.0.left" timestamp="1595766043721">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1872" height="285" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595556262602" />
+    <state width="1872" height="285" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595766043721" />
     <state width="912" height="274" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351888" />
     <state width="1202" height="274" key="GridCell.Tab.0.left/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129007" />
-    <state width="1872" height="285" key="GridCell.Tab.0.right" timestamp="1595556262602">
+    <state width="1872" height="285" key="GridCell.Tab.0.right" timestamp="1595766043721">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1872" height="285" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595556262602" />
+    <state width="1872" height="285" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595766043721" />
     <state width="912" height="274" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351890" />
     <state width="1202" height="274" key="GridCell.Tab.0.right/0.0.2560.1044@0.0.2560.1044" timestamp="1593545129008" />
     <state width="1872" height="338" key="GridCell.Tab.1.bottom" timestamp="1594713238945">
@@ -543,11 +545,11 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1796" y="285" key="RollbackChangesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446832659" />
-    <state x="643" y="134" key="SettingsEditor" timestamp="1595472048315">
-      <screen x="0" y="0" width="1920" height="1044" />
+    <state x="2771" y="245" key="SettingsEditor" timestamp="1595833311977">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="643" y="134" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595472048315" />
-    <state x="2771" y="245" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595420389432" />
+    <state x="2771" y="245" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595833311977" />
     <state x="851" y="237" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1595230553007" />
     <state x="430" y="147" key="SettingsEditor/0.0.2560.1044@0.0.2560.1044" timestamp="1594818044287" />
     <state x="1772" y="434" key="VCS.ChangelistChooser" timestamp="1593446847843">
