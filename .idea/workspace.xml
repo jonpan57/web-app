@@ -72,7 +72,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -167,8 +167,9 @@
       <workItem from="1595230462629" duration="92000" />
       <workItem from="1595435293239" duration="7032000" />
       <workItem from="1595486481764" duration="7074000" />
-      <workItem from="1595737127304" duration="4356000" />
+      <workItem from="1595737127304" duration="4590000" />
       <workItem from="1595775695514" duration="4107000" />
+      <workItem from="1596003824423" duration="3696000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1593446411827</created>
@@ -380,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595751195926</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="initial commit">
+      <created>1595753049263</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1595753049263</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,12 +553,12 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1796" y="285" key="RollbackChangesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446832659" />
-    <state x="2771" y="245" key="SettingsEditor" timestamp="1595833311977">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="851" y="237" key="SettingsEditor" timestamp="1595941198039">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="643" y="134" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595472048315" />
     <state x="2771" y="245" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595833311977" />
-    <state x="851" y="237" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1595230553007" />
+    <state x="851" y="237" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1595941198039" />
     <state x="430" y="147" key="SettingsEditor/0.0.2560.1044@0.0.2560.1044" timestamp="1594818044287" />
     <state x="1772" y="434" key="VCS.ChangelistChooser" timestamp="1593446847843">
       <screen x="0" y="0" width="2560" height="1044" />
@@ -560,11 +568,11 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1758" y="393" key="VCS.EditChangelistDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446781547" />
-    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1595751197835">
+    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1595753050576">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595497753058" />
-    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1595751197835" />
+    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1595753050576" />
     <state x="1520" y="258" key="Vcs.Push.Dialog.v2/0.0.2560.1044@0.0.2560.1044" timestamp="1594821691461" />
     <state x="1380" y="100" width="1070" height="844" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593447302849">
       <screen x="0" y="0" width="2560" height="1044" />

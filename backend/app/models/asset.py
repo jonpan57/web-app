@@ -8,10 +8,16 @@ class Station(db.Model):  # 车站
     address = db.Column(db.String(100))  # 车站地址
     latitude = db.Column(db.Float)  # 车站经度
     longitude = db.Column(db.Float)  # 车站纬度
-    type = db.Column(db.String(100))  # 车站类型
-    spell = db.Column(db.String(3))  # 车站简拼
-    code = db.Column(db.String(3))  # 车站代码
-
+    grade = db.Column(db.Integer)  # 车站等级
+    '''
+    特等站：0、一等站：1、二等站：2、三等站：3、四等站：4、五等站：5
+    '''
+    operation = db.Column(db.Integer)  # 车站作业
+    '''
+    主要分类条件：客运、货运、编组、其他
+    照作业性质分为客运站、货运站、客货运站、工业站、联轨站、港湾站、国境站、换装站、线路所。
+    按技术作业分为编组站、区段站、技术站、中间站、会让站、越行站。
+    '''
     idc = db.relationship('Idc', backref='station')
 
 
