@@ -1,6 +1,16 @@
 from ...app import db
 
 
+class Line(db.Model):  # 线路
+    __tablename__ = 'group_line'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+
+
+class Workshop(db.Model):  # 工作站
+    __tablename__ = 'group_workshop'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+
+
 class Station(db.Model):  # 车站
     __tablename__ = 'asset_station'  # 如果不指定表名，默认以类名小写作为表名
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 车站标识
@@ -14,10 +24,15 @@ class Station(db.Model):  # 车站
     '''
     operation = db.Column(db.Integer)  # 车站作业
     '''
-    主要分类条件：客运、货运、编组、其他
-    照作业性质分为客运站、货运站、客货运站、工业站、联轨站、港湾站、国境站、换装站、线路所。
-    按技术作业分为编组站、区段站、技术站、中间站、会让站、越行站。
+    照作业性质：客运站、货运站、客货运站、工业站、联轨站、港湾站、国境站、换装站、线路所。
+    按技术作业：编组站、区段站、技术站、中间站、会让站、越行站。
+    
+    业务性质：客运站、货运站、客货运站、不办理客货运的站（包括会让站、越行站、线路所等）
+    普速/高速：普速车站、高铁车站、普速高铁共用车站
+    技术性质：中间站、技术站（区段站、编组站）
+    车场配置方式：横列式、纵列式、混合式
     '''
+    order = db.Column(db.Integer)#车站排序
     idc = db.relationship('Idc', backref='station')
 
 
