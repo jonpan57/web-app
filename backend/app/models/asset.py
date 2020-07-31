@@ -32,7 +32,7 @@ class Station(db.Model):  # 车站
     技术性质：中间站、技术站（区段站、编组站）
     车场配置方式：横列式、纵列式、混合式
     '''
-    order = db.Column(db.Integer)#车站排序
+    order = db.Column(db.Integer)  # 车站排序
     idc = db.relationship('Idc', backref='station')
 
 
@@ -50,7 +50,7 @@ class Idc(db.Model):  # 机房
     ip_range = db.Column(db.Text())  # ip范围
     bandwidth = db.Column(db.String(100))  # 机房带宽
     remark = db.Column(db.String(255))  # 备注信息
-    update_time = db.Column(db.Da)
+    update_time = db.Column(db.Time)  # 更新时间
 
     cabinet = db.relationship('Cabinet', backref='idc')
 

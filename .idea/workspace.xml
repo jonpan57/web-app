@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/backend/app/models/account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/models/asset.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/asset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,10 @@
       <workItem from="1595486481764" duration="7074000" />
       <workItem from="1595737127304" duration="4590000" />
       <workItem from="1595775695514" duration="4107000" />
-      <workItem from="1596003824423" duration="3696000" />
+      <workItem from="1596003824423" duration="3931000" />
+      <workItem from="1596096546405" duration="714000" />
+      <workItem from="1596112080681" duration="602000" />
+      <workItem from="1596199345620" duration="3142000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1593446411827</created>
@@ -387,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595753049263</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="initial commit">
+      <created>1596016917159</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1596016917159</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +437,10 @@
     </state>
     <state x="2562" y="312" key="#HTTP_Proxy/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595833130540" />
     <state x="642" y="302" key="#HTTP_Proxy/0.0.1920.1044@0.0.1920.1044" timestamp="1595054320209" />
+    <state x="1324" y="384" key="#Notifications" timestamp="1596203187461">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1324" y="384" key="#Notifications/0.0.1920.1044@0.0.1920.1044" timestamp="1596203187461" />
     <state x="508" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594801347085">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
