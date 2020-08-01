@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/models/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/models/asset.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/asset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
