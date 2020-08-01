@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/backend/app/models/account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/models/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/models/asset.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/asset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +173,7 @@
       <workItem from="1596003824423" duration="3931000" />
       <workItem from="1596096546405" duration="714000" />
       <workItem from="1596112080681" duration="602000" />
-      <workItem from="1596199345620" duration="3142000" />
+      <workItem from="1596199345620" duration="5351000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1593446411827</created>
@@ -399,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596016917159</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="initial commit">
+      <created>1596203979143</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1596203979143</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,11 +590,11 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1758" y="393" key="VCS.EditChangelistDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446781547" />
-    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1595753050576">
+    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1596203981414">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595497753058" />
-    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1595753050576" />
+    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1596203981414" />
     <state x="1520" y="258" key="Vcs.Push.Dialog.v2/0.0.2560.1044@0.0.2560.1044" timestamp="1594821691461" />
     <state x="1380" y="100" width="1070" height="844" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593447302849">
       <screen x="0" y="0" width="2560" height="1044" />

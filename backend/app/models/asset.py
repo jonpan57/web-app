@@ -2,13 +2,9 @@ from ...app import db
 
 
 class Line(db.Model):  # 线路
-    __tablename__ = 'group_line'
+    __tablename__ = 'asset_line'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-
-
-class Workshop(db.Model):  # 工作站
-    __tablename__ = 'group_workshop'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    name = db.Column(db.String(100))  # 线路名称
 
 
 class Station(db.Model):  # 车站
