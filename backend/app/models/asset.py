@@ -23,7 +23,7 @@ class Station(db.Model):  # 车站
     name = db.Column(db.String(6), unique=True, nullable=False)  # 车站名称
     active_time = db.Column(db.Date)  # 投用时间
     grade = db.Column(db.Integer)  # 车站等级————特等站：0、一等站：1、二等站：2、三等站：3、四等站：4、五等站：5
-    business = db.Column(db.Integer)  # 车站类型———— 主要业务分类：客运站、货运站、编组站
+    business = db.Column(db.Integer)  # 车站类型————主要业务分类：客运站、货运站、编组站
     '''
     照作业性质：客运站、货运站、客货运站、工业站、联轨站、港湾站、国境站、换装站、线路所。
     按技术作业：编组站、区段站、技术站、中间站、会让站、越行站。
@@ -64,6 +64,11 @@ class Idc(db.Model):  # 机房
 class Cabinet(db.Model):  # 机房
     __tablename__ = 'asset_cabinet'
     id = db.Column('id', db.Integer, primary_key=True)
-    name = db.Column('name', db.String(255), unique=True, nullable=False)  # 机房名称
+    name = db.Column('name', db.String(255), nullable=False)  # 机房名称
+
+    unit = db.Column('unit',db.Integer)#
+    height = db.Column('height', db.Integer)  # 机柜高度，单位为mm
+    width = db.Column('width', db.Integer)  # 机柜宽度，单位为mm
+    depth = db.Column('depth', db.Integer)  # 机柜深度，单位为mm
 
     idc = db.Column(db.Integer, db.ForeignKey('idc.id'))
