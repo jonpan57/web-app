@@ -1,6 +1,7 @@
 from ...app import db
 
 tag_station = db.Table('tag_station',
+                       db.Column('id', db.Integer, primary_key=True, autoincrement=True),
                        db.Column('line_id', db.Integer, db.ForeignKey('line.id')),
                        db.Column('station_id', db.Integer, db.ForeignKey('station_id')),
                        db.Column('order_no'), db.Integer)
@@ -20,10 +21,10 @@ class Line(db.Model):  # 线路
 class Station(db.Model):  # 车站
     __tablename__ = 'asset_station'  # 如果不指定表名，默认以类名小写作为表名
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 车站标识
-    name = db.Column(db.String(6), unique=True, nullable=False)  # 车站名称
+    name = db.Column(db.String(8), unique=True, nullable=False)  # 车站名称
     active_time = db.Column(db.Date)  # 投用时间
     grade = db.Column(db.Integer)  # 车站等级————特等站：0、一等站：1、二等站：2、三等站：3、四等站：4、五等站：5
-    business = db.Column(db.Integer)  # 车站类型————主要业务分类：客运站、货运站、编组站
+    business = db.Column(db.Integer)  # 车站类型————主要业务分类：客运站、货运站、编组站、其他
     '''
     照作业性质：客运站、货运站、客货运站、工业站、联轨站、港湾站、国境站、换装站、线路所。
     按技术作业：编组站、区段站、技术站、中间站、会让站、越行站。
@@ -44,13 +45,13 @@ class Station(db.Model):  # 车站
 class Idc(db.Model):  # 机房
     __tablename__ = 'asset_idc'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 机房标识
-    name = db.Column(db.String(255), nullable=False)  # 机房名称
+    name = db.Column(db.String(16), nullable=False)  # 机房名称
 
     contact = db.Column(db.String(6))  # 联系人
     telephone = db.Column(db.String(11))  # 联系电话
     network = db.Column(db.String(100))  # 机房网络
     ip_range = db.Column(db.Text())  # ip范围
-    bandwidth = db.Column(db.String(100))  # 机房带宽
+    bandwidth = db.Column(db.String(5))  # 机房带宽
     remark = db.Column(db.String(255))  # 备注信息
 
     address = db.Column(db.String(32))  # 机房地址
@@ -61,12 +62,16 @@ class Idc(db.Model):  # 机房
     cabinet = db.relationship('Cabinet', backref='idc')
 
 
-class Cabinet(db.Model):  # 机房
+class Cabinet(db.Model):  # 机柜
     __tablename__ = 'asset_cabinet'
     id = db.Column('id', db.Integer, primary_key=True)
-    name = db.Column('name', db.String(255), nullable=False)  # 机房名称
+    name = db.Column('name', db.String(3), nullable=False)  # 机柜名称
 
-    unit = db.Column('unit',db.Integer)#
+    brand = db.Column('brand', db.String(8))  # 机柜品牌
+    model = db.Column('model', db.String(8))  # 机柜型号
+    unit_height = db.Column('unit_height', db.Integer)  # 机柜Unit高度，单位为U
+    standard_width = db.Column('standard_width', db.Integer)  # 机柜标准宽度，单位为英寸
+
     height = db.Column('height', db.Integer)  # 机柜高度，单位为mm
     width = db.Column('width', db.Integer)  # 机柜宽度，单位为mm
     depth = db.Column('depth', db.Integer)  # 机柜深度，单位为mm

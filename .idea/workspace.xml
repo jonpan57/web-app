@@ -173,6 +173,9 @@
       <workItem from="1596096546405" duration="714000" />
       <workItem from="1596112080681" duration="602000" />
       <workItem from="1596199345620" duration="5351000" />
+      <workItem from="1596461112184" duration="921000" />
+      <workItem from="1596468735161" duration="3598000" />
+      <workItem from="1596857038848" duration="8286000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1593446411827</created>
@@ -599,10 +602,10 @@
       <screen x="0" y="0" width="2560" height="1044" />
     </state>
     <state x="1380" y="100" width="1070" height="844" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593447302849" />
-    <state x="1679" y="435" width="362" height="173" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595669634097">
-      <screen x="0" y="0" width="2560" height="1044" />
+    <state x="1259" y="435" width="362" height="173" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596798506960">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1259" y="435" width="362" height="173" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595552646641" />
+    <state x="1259" y="435" width="362" height="173" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596798506960" />
     <state x="1259" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1595663273439" />
     <state x="1679" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1044@0.0.2560.1044" timestamp="1595669634097" />
   </component>
