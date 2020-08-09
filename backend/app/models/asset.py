@@ -64,16 +64,21 @@ class Idc(db.Model):  # 机房
 
 class Cabinet(db.Model):  # 机柜
     __tablename__ = 'asset_cabinet'
-    id = db.Column('id', db.Integer, primary_key=True)
-    name = db.Column('name', db.String(3), nullable=False)  # 机柜名称
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    name = db.Column(db.String(3), nullable=False)  # 机柜名称
 
-    brand = db.Column('brand', db.String(8))  # 机柜品牌
-    model = db.Column('model', db.String(8))  # 机柜型号
-    unit_height = db.Column('unit_height', db.Integer)  # 机柜Unit高度，单位为U
-    standard_width = db.Column('standard_width', db.Integer)  # 机柜标准宽度，单位为英寸
+    brand = db.Column(db.String(8))  # 机柜品牌
+    model = db.Column(db.String(8))  # 机柜型号
+    unit_height = db.Column(db.Integer)  # 机柜Unit高度，单位为U
+    standard_width = db.Column(db.Integer)  # 机柜标准宽度，单位为英寸
 
-    height = db.Column('height', db.Integer)  # 机柜高度，单位为mm
-    width = db.Column('width', db.Integer)  # 机柜宽度，单位为mm
-    depth = db.Column('depth', db.Integer)  # 机柜深度，单位为mm
+    height = db.Column(db.Integer)  # 机柜高度，单位为mm
+    width = db.Column(db.Integer)  # 机柜宽度，单位为mm
+    depth = db.Column(db.Integer)  # 机柜深度，单位为mm
 
     idc = db.Column(db.Integer, db.ForeignKey('idc.id'))
+
+
+class host(db.Model):
+    __tablename__ = 'asset_host'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
