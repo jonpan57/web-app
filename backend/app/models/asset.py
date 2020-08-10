@@ -3,24 +3,39 @@ from ...app import db
 tag_station = db.Table('tag_station',
                        db.Column('id', db.Integer, primary_key=True, autoincrement=True),
                        db.Column('line_id', db.Integer, db.ForeignKey('line.id')),
-                       db.Column('station_id', db.Integer, db.ForeignKey('station_id')),
+                       db.Column('station_id', db.Integer, db.ForeignKey('station.id')),
                        db.Column('order_no'), db.Integer)
 
 '''
-physical    物理机
-virtual     虚拟机
-container   容器
-storage     存储设备
-route       路由器
-switch      交换机
-firewall    防火墙
+server：服务器
+    physical：物理机
+    virtual：虚拟机
+    container：容器
+    storage：存储设备
+network：网络设备
+    repeater:中继器
+        hub:集线器
+        fiber converter:光纤收发器
+    bridge:网桥
+    route：路由器
+    gateway:网关
+    firewall：防火墙
+    switch：交换机
+    
+    综合布线
+        
+        电话跳线架
+        网络配线架
+        网络理线架
+        光纤配线架
 '''
 
 '''
-使用中
-未使用
-故障中
-其他
+设备状态
+    使用中
+    未使用
+    故障
+    其他
 '''
 
 
@@ -55,8 +70,8 @@ class AssetStation(db.Model):  # 车站
     latitude = db.Column(db.Float)  # 车站经度
     longitude = db.Column(db.Float)  # 车站纬度
 
-    line = db.relationship('Line', secondary=tag_station, backref=db.backref('stations'))
-    idc = db.relationship('Idc', backref='station')
+    line = db.relationship('AssetLine', secondary=tag_station, backref=db.backref('stations'))
+    idc = db.relationship('AssetIdc', backref='station')
 
 
 class AssetIdc(db.Model):  # 机房
@@ -76,7 +91,7 @@ class AssetIdc(db.Model):  # 机房
     longitude = db.Column(db.Float)  # 机房纬度
 
     station = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)
-    cabinet = db.relationship('Cabinet', backref='idc')
+    cabinet = db.relationship('AssetCabinet', backref='idc')
 
 
 class AssetCabinet(db.Model):  # 机柜
@@ -96,12 +111,29 @@ class AssetCabinet(db.Model):  # 机柜
     idc = db.Column(db.Integer, db.ForeignKey('idc.id'))
 
 
-class host(db.Model):
+class AssetHost(db.Model):
     __tablename__ = 'asset_host'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    hostname = db.Column(db.String(8), unique=True, nullable=False)
+
+    interface = db.relationship('AssetHost', backref='host')
+
+
+class AssetHostInterface(db.Model):
+    __tablename__ = 'asset_host_interface'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    dns = db.Column(db.String(8))
+    ip= db.Column(db.String(15))
+    port=db.Column(db.String(5))
+
+    host = db.Column(db.Integer, db.ForeignKey('host.id'))
 
 
 class AssetServer(db.Model):
     __tablename__ = 'asset_server'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    hostname = db.Column(db.String(8))
+
+
+class AssetNetwork(db.Model):
+    __tablename__ = 'asset_network'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
