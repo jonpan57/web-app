@@ -6,8 +6,25 @@ tag_station = db.Table('tag_station',
                        db.Column('station_id', db.Integer, db.ForeignKey('station_id')),
                        db.Column('order_no'), db.Integer)
 
+'''
+physical    物理机
+virtual     虚拟机
+container   容器
+storage     存储设备
+route       路由器
+switch      交换机
+firewall    防火墙
+'''
 
-class Line(db.Model):  # 线路
+'''
+使用中
+未使用
+故障中
+其他
+'''
+
+
+class AssetLine(db.Model):  # 线路
     __tablename__ = 'asset_line'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 线路标识
     name = db.Column(db.String(8), unique=True, nullable=False)  # 线路名称
@@ -18,7 +35,7 @@ class Line(db.Model):  # 线路
     count = db.Column(db.Integer)  # 车站数量
 
 
-class Station(db.Model):  # 车站
+class AssetStation(db.Model):  # 车站
     __tablename__ = 'asset_station'  # 如果不指定表名，默认以类名小写作为表名
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 车站标识
     name = db.Column(db.String(8), unique=True, nullable=False)  # 车站名称
@@ -42,7 +59,7 @@ class Station(db.Model):  # 车站
     idc = db.relationship('Idc', backref='station')
 
 
-class Idc(db.Model):  # 机房
+class AssetIdc(db.Model):  # 机房
     __tablename__ = 'asset_idc'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 机房标识
     name = db.Column(db.String(16), nullable=False)  # 机房名称
@@ -62,7 +79,7 @@ class Idc(db.Model):  # 机房
     cabinet = db.relationship('Cabinet', backref='idc')
 
 
-class Cabinet(db.Model):  # 机柜
+class AssetCabinet(db.Model):  # 机柜
     __tablename__ = 'asset_cabinet'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String(3), nullable=False)  # 机柜名称
@@ -82,3 +99,9 @@ class Cabinet(db.Model):  # 机柜
 class host(db.Model):
     __tablename__ = 'asset_host'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+
+
+class AssetServer(db.Model):
+    __tablename__ = 'asset_server'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    hostname = db.Column(db.String(8))
