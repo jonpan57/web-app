@@ -22,12 +22,11 @@ network：网络设备
     firewall：防火墙
     switch：交换机
     
-    综合布线
-        
-        电话跳线架
-        网络配线架
-        网络理线架
-        光纤配线架
+综合布线
+    语音配线架
+    网络配线架
+    网络理线架
+    光纤配线架
 '''
 
 '''
@@ -111,20 +110,22 @@ class AssetCabinet(db.Model):  # 机柜
     idc = db.Column(db.Integer, db.ForeignKey('idc.id'))
 
 
-class AssetHost(db.Model):
+class AssetHost(db.Model):  # 主机
     __tablename__ = 'asset_host'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     hostname = db.Column(db.String(8), unique=True, nullable=False)
-
+    status = db.Column(db.Integer)
     interface = db.relationship('AssetHost', backref='host')
 
 
-class AssetHostInterface(db.Model):
+class AssetHostInterface(db.Model):  # 主机接口
     __tablename__ = 'asset_host_interface'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     dns = db.Column(db.String(8))
-    ip= db.Column(db.String(15))
-    port=db.Column(db.String(5))
+    ip = db.Column(db.String(15))
+    port = db.Column(db.String(5))
+    type = db.Column(db.Integer)
+    useip = db.Column(db.Integer)
 
     host = db.Column(db.Integer, db.ForeignKey('host.id'))
 
