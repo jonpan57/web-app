@@ -1,7 +1,13 @@
+from datetime import datetime
 from ...app import db
 
+
+class AbstractDate(db.Model):
+    create_time = db.Column(db.DateTime, default=datetime.now)  # 创建时间
+    update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 更新时间
+
+
 tag_station = db.Table('tag_station',
-                       db.Column('id', db.Integer, primary_key=True, autoincrement=True),
                        db.Column('line_id', db.Integer, db.ForeignKey('line.id')),
                        db.Column('station_id', db.Integer, db.ForeignKey('station.id')),
                        db.Column('order_no'), db.Integer)
@@ -38,42 +44,37 @@ network：网络设备
 '''
 
 
-class AssetLine(db.Model):  # 线路
+class Line(AbstractDate):  # 线路
     __tablename__ = 'asset_line'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 线路标识
     name = db.Column(db.String(8), unique=True, nullable=False)  # 线路名称
-    active_time = db.Column(db.Date)  # 开通时间
+    enable_date = db.Column(db.Date)  # 开通时间
     length = db.Column(db.Float)  # 线路长度
     design_speed = db.Column(db.Integer)  # 设计速度
     operation_speed = db.Column(db.Integer)  # 运营速度
     count = db.Column(db.Integer)  # 车站数量
 
 
-class AssetStation(db.Model):  # 车站
+class Station(AbstractDate):  # 车站
     __tablename__ = 'asset_station'  # 如果不指定表名，默认以类名小写作为表名
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 车站标识
     name = db.Column(db.String(8), unique=True, nullable=False)  # 车站名称
-    active_time = db.Column(db.Date)  # 投用时间
-    grade = db.Column(db.Integer)  # 车站等级————特等站：0、一等站：1、二等站：2、三等站：3、四等站：4、五等站：5
-    business = db.Column(db.Integer)  # 车站类型————主要业务分类：客运站、货运站、编组站、其他
+    enable_date = db.Column(db.Date)  # 投用时间
+    grade = db.Column(db.Enum('特等站', '一等站', '二等站', '三等站', '四等站', '五等站'))  # 车站等级
+    type = db.Column(db.Enum('客货运站', '客运站', '货运站', '其他站'))  # 车站类型
+    speed = db.Column(db.Enum('高铁站', '共用站', '普速站'))  # 车站速度
     '''
-    照作业性质：客运站、货运站、客货运站、工业站、联轨站、港湾站、国境站、换装站、线路所。
-    按技术作业：编组站、区段站、技术站、中间站、会让站、越行站。
-
-    业务性质：客运站、货运站、客货运站、不办理客货运的站（包括会让站、越行站、线路所等）
-    普速/高速：普速车站、高铁车站、普速高铁共用车站
-    技术性质：中间站、技术站（区段站、编组站）
-    车场配置方式：横列式、纵列式、混合式
+    根据上述的三个维度，判断车站故障处理的轻重缓急,影响故障显示的优先级顺序
     '''
     address = db.Column(db.String(32))  # 车站地址
-    latitude = db.Column(db.Float)  # 车站经度
-    longitude = db.Column(db.Float)  # 车站纬度
+    latitude = db.Column(db.DECIMAL(9, 6))  # 车站经度
+    longitude = db.Column(db.DECIMAL(8, 6))  # 车站纬度
 
     line = db.relationship('AssetLine', secondary=tag_station, backref=db.backref('stations'))
     idc = db.relationship('AssetIdc', backref='station')
 
 
-class AssetIdc(db.Model):  # 机房
+class Idc(db.Model):  # 机房
     __tablename__ = 'asset_idc'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 机房标识
     name = db.Column(db.String(16), nullable=False)  # 机房名称
@@ -93,7 +94,7 @@ class AssetIdc(db.Model):  # 机房
     cabinet = db.relationship('AssetCabinet', backref='idc')
 
 
-class AssetCabinet(db.Model):  # 机柜
+class Cabinet(db.Model):  # 机柜
     __tablename__ = 'asset_cabinet'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String(3), nullable=False)  # 机柜名称
