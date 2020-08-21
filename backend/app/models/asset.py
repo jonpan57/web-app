@@ -8,8 +8,8 @@ class AbstractDate(db.Model):
 
 
 tag_station = db.Table('tag_station',
-                       db.Column('line_id', db.Integer, db.ForeignKey('line.id')),
-                       db.Column('station_id', db.Integer, db.ForeignKey('station.id')),
+                       db.Column('line_id', db.Integer, db.ForeignKey('asset_line.id')),
+                       db.Column('station_id', db.Integer, db.ForeignKey('asset_station.id')),
                        db.Column('order_no'), db.Integer)
 
 '''
@@ -19,7 +19,7 @@ server：服务器
     container：容器
     storage：存储设备
 network：网络设备
-    repeater:中继器
+    repeater:中继
         hub:集线器
         fiber converter:光纤收发器
     bridge:网桥
@@ -37,8 +37,8 @@ network：网络设备
 
 '''
 设备状态
-    使用中
-    未使用
+    启用
+    停用
     故障
     其他
 '''
@@ -52,7 +52,8 @@ class Line(AbstractDate):  # 线路
     length = db.Column(db.Float)  # 线路长度
     design_speed = db.Column(db.Integer)  # 设计速度
     operation_speed = db.Column(db.Integer)  # 运营速度
-    count = db.Column(db.Integer)  # 车站数量
+
+    station = db.relationship('Station', secondary=tag_station)
 
 
 class Station(AbstractDate):  # 车站
@@ -70,11 +71,10 @@ class Station(AbstractDate):  # 车站
     latitude = db.Column(db.DECIMAL(9, 6))  # 车站经度
     longitude = db.Column(db.DECIMAL(8, 6))  # 车站纬度
 
-    line = db.relationship('AssetLine', secondary=tag_station, backref=db.backref('stations'))
-    idc = db.relationship('AssetIdc', backref='station')
+    idc = db.relationship('Idc')
 
 
-class Idc(db.Model):  # 机房
+class Idc(AbstractDate):  # 机房
     __tablename__ = 'asset_idc'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 机房标识
     name = db.Column(db.String(16), nullable=False)  # 机房名称
@@ -90,13 +90,13 @@ class Idc(db.Model):  # 机房
     latitude = db.Column(db.Float)  # 机房经度
     longitude = db.Column(db.Float)  # 机房纬度
 
-    station = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)
+    station_id = db.Column(db.Integer, db.ForeignKey('asset_station.id'))
     cabinet = db.relationship('AssetCabinet', backref='idc')
 
 
-class Cabinet(db.Model):  # 机柜
+class Cabinet(AbstractDate):  # 机柜
     __tablename__ = 'asset_cabinet'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 机柜标识
     name = db.Column(db.String(3), nullable=False)  # 机柜名称
 
     brand = db.Column(db.String(8))  # 机柜品牌
@@ -108,10 +108,10 @@ class Cabinet(db.Model):  # 机柜
     width = db.Column(db.Integer)  # 机柜宽度，单位为mm
     depth = db.Column(db.Integer)  # 机柜深度，单位为mm
 
-    idc = db.Column(db.Integer, db.ForeignKey('idc.id'))
+    idc_id = db.Column(db.Integer, db.ForeignKey('asset_idc.id'))
 
 
-class AssetHost(db.Model):  # 主机
+class AssetHost(AbstractDate):  # 主机
     __tablename__ = 'asset_host'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     hostname = db.Column(db.String(8), unique=True, nullable=False)
