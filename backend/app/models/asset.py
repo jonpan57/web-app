@@ -7,10 +7,10 @@ class AbstractDate(db.Model):
     update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 更新时间
 
 
-tag_station = db.Table('tag_station',
-                       db.Column('line_id', db.Integer, db.ForeignKey('asset_line.id')),
-                       db.Column('station_id', db.Integer, db.ForeignKey('asset_station.id')),
-                       db.Column('order_no'), db.Integer)
+line_station = db.Table('line_station',
+                        db.Column('line_id', db.Integer, db.ForeignKey('asset_line.id')),
+                        db.Column('station_id', db.Integer, db.ForeignKey('asset_station.id')),
+                        db.Column('order_no'), db.Integer)
 
 '''
 server：服务器
@@ -53,7 +53,7 @@ class Line(AbstractDate):  # 线路
     design_speed = db.Column(db.Integer)  # 设计速度
     operation_speed = db.Column(db.Integer)  # 运营速度
 
-    station = db.relationship('Station', secondary=tag_station)
+    station = db.relationship('Station', secondary=line_station)
 
 
 class Station(AbstractDate):  # 车站
