@@ -92,7 +92,7 @@
       <updated>1605103508599</updated>
       <workItem from="1605103509605" duration="39000" />
       <workItem from="1605103611666" duration="778000" />
-      <workItem from="1605104390920" duration="15160000" />
+      <workItem from="1605104390920" duration="15514000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1605144666510</created>
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605171439348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <created>1605174377432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605174377432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,10 +179,10 @@
     </state>
     <state x="476" y="157" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605104335821" />
     <state x="2396" y="162" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605104690731" />
-    <state x="560" y="267" key="Vcs.Push.Dialog.v2" timestamp="1605171440857">
+    <state x="560" y="267" key="Vcs.Push.Dialog.v2" timestamp="1605174378514">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605171440857" />
+    <state x="560" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605174378514" />
     <state x="2480" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605163533199" />
     <state x="785" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605103447881">
       <screen x="0" y="0" width="1920" height="1044" />
