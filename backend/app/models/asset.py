@@ -2,8 +2,11 @@ from datetime import datetime
 from ...app import db
 
 
-class AbstractDate(db.Model):
+class BaseModel(db.Model):
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 标识
+    create_by = db.Column(db.Integer)  # 创建人
     create_time = db.Column(db.DateTime, default=datetime.now)  # 创建时间
+    update_by = db.Column(db.Integer)  # 更新人
     update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 更新时间
 
 
@@ -44,9 +47,8 @@ network：网络设备
 '''
 
 
-class Line(AbstractDate):  # 线路
+class Line(BaseModel):  # 线路
     __tablename__ = 'asset_line'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 线路标识
     name = db.Column(db.String(8), unique=True, nullable=False)  # 线路名称
     enable_date = db.Column(db.Date)  # 开通时间
     length = db.Column(db.Float)  # 线路长度
@@ -56,9 +58,8 @@ class Line(AbstractDate):  # 线路
     station = db.relationship('Station', secondary=line_station)
 
 
-class Station(AbstractDate):  # 车站
+class Station(BaseModel):  # 车站
     __tablename__ = 'asset_station'  # 如果不指定表名，默认以类名小写作为表名
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 车站标识
     name = db.Column(db.String(8), unique=True, nullable=False)  # 车站名称
     enable_date = db.Column(db.Date)  # 投用时间
     grade = db.Column(db.Enum('特等站', '一等站', '二等站', '三等站', '四等站', '五等站'))  # 车站等级
@@ -74,9 +75,8 @@ class Station(AbstractDate):  # 车站
     idc = db.relationship('Idc')
 
 
-class Idc(AbstractDate):  # 机房
+class Idc(BaseModel):  # 机房
     __tablename__ = 'asset_idc'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 机房标识
     name = db.Column(db.String(16), nullable=False)  # 机房名称
 
     contact = db.Column(db.String(6))  # 联系人
@@ -94,9 +94,8 @@ class Idc(AbstractDate):  # 机房
     cabinet = db.relationship('AssetCabinet', backref='idc')
 
 
-class Cabinet(AbstractDate):  # 机柜
+class Cabinet(BaseModel):  # 机柜
     __tablename__ = 'asset_cabinet'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 机柜标识
     name = db.Column(db.String(3), nullable=False)  # 机柜名称
 
     brand = db.Column(db.String(8))  # 机柜品牌
@@ -111,9 +110,8 @@ class Cabinet(AbstractDate):  # 机柜
     idc_id = db.Column(db.Integer, db.ForeignKey('asset_idc.id'))
 
 
-class AssetHost(AbstractDate):  # 主机
+class AssetHost(BaseModel):  # 主机
     __tablename__ = 'asset_host'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     hostname = db.Column(db.String(8), unique=True, nullable=False)
     status = db.Column(db.Integer)
     interface = db.relationship('AssetHost', backref='host')

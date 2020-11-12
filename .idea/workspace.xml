@@ -11,314 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588ccd5e-76e7-406d-be40-24674ff9fdca" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.env.staging" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.github/FUNDING.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.github/ISSUE_TEMPLATE/question.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/README.es.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/README.ja.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/README.zh-CN.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/build/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/mock/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/mock/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/mock/mock-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/mock/remote-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/mock/role/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/mock/role/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/mock/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/mock/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/plop-templates/component/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/plop-templates/component/prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/plop-templates/store/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/plop-templates/store/prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/plop-templates/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/plop-templates/view/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/plop-templates/view/prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/plopfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/api/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/api/qiniu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/api/remote-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/api/role.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/assets/401_images/401.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/assets/404_images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/assets/404_images/404_cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/assets/custom-theme/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/assets/custom-theme/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/assets/custom-theme/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/BackToTop/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Breadcrumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Charts/Keyboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Charts/LineMarker.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Charts/MixChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Charts/mixins/resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/DndList/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/DragSelect/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Dropzone/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/ErrorLog/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/GithubCorner/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Hamburger/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/HeaderSearch/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/ImageCropper/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/ImageCropper/utils/data2blob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/ImageCropper/utils/effectRipple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/ImageCropper/utils/language.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/ImageCropper/utils/mimes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/JsonEditor/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Kanban/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/MDinput/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/MarkdownEditor/default-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/MarkdownEditor/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Pagination/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/PanThumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/RightPanel/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Screenfull/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Share/DropdownMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/SizeSelect/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Sticky/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/SvgIcon/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/TextHoverEffect/Mallki.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/ThemePicker/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Tinymce/components/EditorImage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Tinymce/dynamicLoadScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Tinymce/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Tinymce/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Tinymce/toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Upload/SingleImage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Upload/SingleImage2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/Upload/SingleImage3.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/components/UploadExcel/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/clipboard/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/clipboard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/el-drag-dialog/drag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/el-drag-dialog/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/el-table/adaptive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/el-table/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/permission/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/permission/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/waves/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/waves/waves.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/directive/waves/waves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/filters/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/404.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/bug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/chart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/clipboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/component.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/dashboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/documentation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/drag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/education.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/example.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/excel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/exit-fullscreen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/eye-open.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/fullscreen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/guide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/international.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/language.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/lock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/message.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/money.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/nested.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/password.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/pdf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/people.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/peoples.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/qq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/shopping.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/size.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/skill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/table.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/theme.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/tree-table.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/tree.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/wechat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svg/zip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/icons/svgo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/AppMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/Settings/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/Sidebar/Item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/Sidebar/Link.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/TagsView/ScrollPane.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/TagsView/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/layout/mixin/ResizeHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/router/modules/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/router/modules/components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/router/modules/nested.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/router/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/store/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/store/modules/errorLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/store/modules/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/store/modules/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/store/modules/tagsView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/store/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/styles/btn.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/styles/element-ui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/styles/element-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/styles/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/styles/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/styles/transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/error-log.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/get-page-title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/open-window.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/scroll-to.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/utils/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/vendor/Export2Excel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/vendor/Export2Zip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/charts/keyboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/charts/line.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/charts/mix-chart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/clipboard/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/avatar-upload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/back-to-top.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/count-to.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/dnd-list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/drag-dialog.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/drag-kanban.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/drag-select.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/dropzone.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/json-editor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/markdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/mixin.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/split-pane.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/sticky.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/components-demo/tinymce.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/BarChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/BoxCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/LineChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/PanelGroup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/PieChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/RaddarChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/TodoList/Todo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/TodoList/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/TodoList/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/TransactionTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/components/mixins/resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/admin/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/editor/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/dashboard/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/documentation/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/error-log/components/ErrorTestA.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/error-log/components/ErrorTestB.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/error-log/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/error-page/401.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/error-page/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/example/components/ArticleDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/example/components/Dropdown/Comment.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/example/components/Dropdown/Platform.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/example/components/Dropdown/SourceUrl.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/example/components/Dropdown/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/example/components/Warning.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/example/create.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/example/edit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/example/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/excel/components/AutoWidthOption.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/excel/components/BookTypeOption.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/excel/components/FilenameOption.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/excel/export-excel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/excel/merge-header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/excel/select-excel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/excel/upload-excel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/guide/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/guide/steps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/icons/element-icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/icons/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/icons/svg-icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/login/auth-redirect.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/login/components/SocialSignin.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/nested/menu1/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/nested/menu1/menu1-1/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/nested/menu1/menu1-2/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/nested/menu1/menu1-3/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/nested/menu2/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/pdf/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/pdf/download.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/pdf/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/permission/components/SwitchRoles.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/permission/directive.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/permission/page.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/permission/role.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/profile/components/Account.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/profile/components/Activity.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/profile/components/Timeline.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/profile/components/UserCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/profile/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/qiniu/upload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/redirect/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/tab/components/TabPane.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/tab/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/table/complex-table.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/table/drag-table.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/table/dynamic-table/components/FixedThead.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/table/dynamic-table/components/UnfixedThead.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/table/dynamic-table/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/table/inline-edit-table.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/theme/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/src/views/zip/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/tests/unit/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/tests/unit/components/Hamburger.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/tests/unit/utils/formatTime.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/tests/unit/utils/param2Obj.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/tests/unit/utils/parseTime.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/tests/unit/utils/validate.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-element-admin-master/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/models/asset.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/asset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +49,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="$PROJECT_DIR$/backend/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -398,7 +92,7 @@
       <updated>1605103508599</updated>
       <workItem from="1605103509605" duration="39000" />
       <workItem from="1605103611666" duration="778000" />
-      <workItem from="1605104390920" duration="5944000" />
+      <workItem from="1605104390920" duration="12411000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1605144666510</created>
@@ -407,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605144666510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1605163529998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605163529998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,10 +165,10 @@
     </state>
     <state x="476" y="157" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605104335821" />
     <state x="2396" y="162" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605104690731" />
-    <state x="2480" y="276" key="Vcs.Push.Dialog.v2" timestamp="1605144729735">
+    <state x="2480" y="276" key="Vcs.Push.Dialog.v2" timestamp="1605163533199">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2480" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605144729735" />
+    <state x="2480" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605163533199" />
     <state x="785" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605103447881">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
