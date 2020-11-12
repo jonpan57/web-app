@@ -1,20 +1,6 @@
 from datetime import datetime
 from ...app import db
 
-
-class BaseModel(db.Model):
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 标识
-    create_by = db.Column(db.Integer)  # 创建人
-    create_time = db.Column(db.DateTime, default=datetime.now)  # 创建时间
-    update_by = db.Column(db.Integer)  # 更新人
-    update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 更新时间
-
-
-line_station = db.Table('line_station',
-                        db.Column('line_id', db.Integer, db.ForeignKey('asset_line.id')),
-                        db.Column('station_id', db.Integer, db.ForeignKey('asset_station.id')),
-                        db.Column('order_no'), db.Integer)
-
 '''
 server：服务器
     physical：物理机
@@ -30,7 +16,7 @@ network：网络设备
     gateway:网关
     firewall：防火墙
     switch：交换机
-    
+
 综合布线
     语音配线架
     网络配线架
@@ -47,10 +33,25 @@ network：网络设备
 '''
 
 
+class BaseModel(db.Model):
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # 标识
+    create_by = db.Column(db.Integer)  # 创建人
+    create_time = db.Column(db.DateTime, default=datetime.now)  # 创建时间
+    update_by = db.Column(db.Integer)  # 更新人
+    update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 更新时间
+
+
+# 中间表
+line_station = db.Table('line_station',
+                        db.Column('line_id', db.Integer, db.ForeignKey('asset_line.id'), primary_key=True),
+                        db.Column('station_id', db.Integer, db.ForeignKey('asset_station.id'), primary_key=True),
+                        db.Column('order'), db.Integer)  # 顺序
+
+
 class Line(BaseModel):  # 线路
     __tablename__ = 'asset_line'
     name = db.Column(db.String(8), unique=True, nullable=False)  # 线路名称
-    enable_date = db.Column(db.Date)  # 开通时间
+    enable_date = db.Column(db.Date)  # 启用日期
     length = db.Column(db.Float)  # 线路长度
     design_speed = db.Column(db.Integer)  # 设计速度
     operation_speed = db.Column(db.Integer)  # 运营速度
@@ -61,7 +62,7 @@ class Line(BaseModel):  # 线路
 class Station(BaseModel):  # 车站
     __tablename__ = 'asset_station'  # 如果不指定表名，默认以类名小写作为表名
     name = db.Column(db.String(8), unique=True, nullable=False)  # 车站名称
-    enable_date = db.Column(db.Date)  # 投用时间
+    enable_date = db.Column(db.Date)  # 启用日期
     grade = db.Column(db.Enum('特等站', '一等站', '二等站', '三等站', '四等站', '五等站'))  # 车站等级
     type = db.Column(db.Enum('客货运站', '客运站', '货运站', '其他站'))  # 车站类型
     speed = db.Column(db.Enum('高铁站', '共用站', '普速站'))  # 车站速度
@@ -91,7 +92,7 @@ class Idc(BaseModel):  # 机房
     longitude = db.Column(db.Float)  # 机房纬度
 
     station_id = db.Column(db.Integer, db.ForeignKey('asset_station.id'))
-    cabinet = db.relationship('AssetCabinet', backref='idc')
+    cabinet = db.relationship('AssetCabinet')
 
 
 class Cabinet(BaseModel):  # 机柜
