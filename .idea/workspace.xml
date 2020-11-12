@@ -10,91 +10,347 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="initial commit">
+    <list default="true" id="588ccd5e-76e7-406d-be40-24674ff9fdca" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/models/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/models/asset.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/asset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.env.staging" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/README.eng.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/README.es.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/README.ja.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/build/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/mock/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/mock/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/mock/mock-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/mock/remote-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/mock/role/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/mock/role/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/mock/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/mock/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/plop-templates/component/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/plop-templates/component/prompt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/plop-templates/store/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/plop-templates/store/prompt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/plop-templates/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/plop-templates/view/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/plop-templates/view/prompt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/plopfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/api/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/api/qiniu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/api/remote-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/api/role.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/api/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/assets/401_images/401.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/assets/404_images/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/assets/404_images/404_cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/assets/custom-theme/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/assets/custom-theme/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/assets/custom-theme/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/BackToTop/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Breadcrumb/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Charts/Keyboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Charts/LineMarker.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Charts/MixChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Charts/mixins/resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/DndList/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/DragSelect/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Dropzone/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/ErrorLog/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/GithubCorner/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Hamburger/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/HeaderSearch/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/ImageCropper/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/ImageCropper/utils/data2blob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/ImageCropper/utils/effectRipple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/ImageCropper/utils/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/ImageCropper/utils/mimes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/JsonEditor/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Kanban/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/MDinput/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/MarkdownEditor/default-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/MarkdownEditor/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Pagination/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/PanThumb/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/RightPanel/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Screenfull/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Share/DropdownMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/SizeSelect/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Sticky/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/SvgIcon/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/TextHoverEffect/Mallki.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/ThemePicker/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Tinymce/components/EditorImage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Tinymce/dynamicLoadScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Tinymce/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Tinymce/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Tinymce/toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Upload/SingleImage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Upload/SingleImage2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/Upload/SingleImage3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/components/UploadExcel/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/clipboard/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/clipboard/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/el-drag-dialog/drag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/el-drag-dialog/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/el-table/adaptive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/el-table/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/permission/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/permission/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/waves/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/waves/waves.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/directive/waves/waves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/filters/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/404.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/bug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/component.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/dashboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/documentation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/drag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/education.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/example.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/excel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/exit-fullscreen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/eye-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/form.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/fullscreen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/guide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/international.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/language.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/message.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/money.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/nested.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/password.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/pdf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/people.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/peoples.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/qq.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/shopping.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/size.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/skill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/table.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/theme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/tree-table.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/tree.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/wechat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svg/zip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/icons/svgo.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/AppMain.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/Navbar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/Settings/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/Sidebar/FixiOSBug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/Sidebar/Item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/Sidebar/Link.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/Sidebar/Logo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/Sidebar/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/TagsView/ScrollPane.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/TagsView/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/layout/mixin/ResizeHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/router/modules/charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/router/modules/components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/router/modules/nested.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/router/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/getters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/modules/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/modules/errorLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/modules/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/modules/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/modules/tagsView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/modules/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/styles/btn.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/styles/element-ui.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/styles/element-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/styles/mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/styles/sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/styles/transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/styles/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/error-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/get-page-title.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/open-window.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/scroll-to.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/vendor/Export2Excel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/vendor/Export2Zip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/charts/keyboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/charts/line.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/charts/mix-chart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/clipboard/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/avatar-upload.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/back-to-top.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/count-to.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/dnd-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/drag-dialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/drag-kanban.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/drag-select.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/dropzone.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/json-editor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/markdown.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/mixin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/split-pane.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/sticky.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/components-demo/tinymce.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/BarChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/BoxCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/LineChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/PanelGroup.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/PieChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/RaddarChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/TodoList/Todo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/TodoList/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/TodoList/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/TransactionTable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/components/mixins/resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/admin/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/editor/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/dashboard/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/documentation/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/error-log/components/ErrorTestA.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/error-log/components/ErrorTestB.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/error-log/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/error-page/401.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/error-page/404.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/example/components/ArticleDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/example/components/Dropdown/Comment.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/example/components/Dropdown/Platform.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/example/components/Dropdown/SourceUrl.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/example/components/Dropdown/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/example/components/Warning.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/example/create.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/example/edit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/example/list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/excel/components/AutoWidthOption.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/excel/components/BookTypeOption.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/excel/components/FilenameOption.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/excel/export-excel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/excel/merge-header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/excel/select-excel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/excel/upload-excel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/guide/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/guide/steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/icons/element-icons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/icons/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/icons/svg-icons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/login/auth-redirect.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/login/components/SocialSignin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/login/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/nested/menu1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/nested/menu1/menu1-1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/nested/menu1/menu1-2/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/nested/menu1/menu1-3/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/nested/menu2/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/pdf/content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/pdf/download.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/pdf/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/permission/components/SwitchRoles.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/permission/directive.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/permission/page.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/permission/role.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/profile/components/Account.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/profile/components/Activity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/profile/components/Timeline.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/profile/components/UserCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/profile/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/qiniu/upload.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/redirect/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/tab/components/TabPane.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/tab/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/table/complex-table.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/table/drag-table.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/table/dynamic-table/components/FixedThead.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/table/dynamic-table/components/UnfixedThead.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/table/dynamic-table/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/table/inline-edit-table.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/theme/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/zip/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/tests/unit/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/tests/unit/components/Hamburger.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/tests/unit/components/SvgIcon.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/tests/unit/utils/formatTime.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/tests/unit/utils/param2Obj.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/tests/unit/utils/parseTime.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/tests/unit/utils/validate.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/vue.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Stub" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="JsBowerSettings">
-    <node-interpreter value="project" />
-    <bower-package value="" />
-    <bower.json value="" />
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectId" id="1e04BjmdjaEnNsUDIq8aV8nZeiR" />
+  <component name="JupyterTrust" id="c29ee47d-d726-4485-9da6-dd9461e93cdb" />
+  <component name="ProjectId" id="1k9CdfWmCBmxZHEJHM6BqleVlWC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/manage.py" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/frontend/node_modules/eslint" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/views/business/os" />
-      <recent name="$PROJECT_DIR$/frontend/src/views/asset/power" />
-      <recent name="$PROJECT_DIR$/frontend/src/views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend/app" />
-      <recent name="$PROJECT_DIR$/frontend/src/views/business" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.run dev">
-    <configuration default="true" type="Python.FlaskServer">
-      <option name="flaskDebug" value="true" />
+  <component name="RunManager" selected="npm.npm dev">
+    <configuration name="Flask (backend/manage.py)" type="Python.FlaskServer" nameIsGenerated="true">
       <module name="web-app" />
-      <option name="target" value="$PROJECT_DIR$/backend/app.py" />
+      <option name="target" value="$PROJECT_DIR$/backend/manage.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/backend-97Wnjb4r/bin/python" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/backend/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -103,17 +359,17 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="run build:stage" type="js.build_tools.npm">
+    <configuration default="true" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
       <scripts>
-        <script value="build:stage" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="run dev" type="js.build_tools.npm">
+    <configuration name="npm dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
       <scripts>
@@ -124,322 +380,26 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.run build:stage" />
-      <item itemvalue="npm.run dev" />
+      <item itemvalue="Flask 服务器.Flask (backend/manage.py)" />
+      <item itemvalue="npm.npm dev" />
     </list>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81dd7cce-3de0-4e15-a5f4-0f7b90cbd442" name="Default Changelist" comment="" />
-      <created>1593445042702</created>
+      <changelist id="588ccd5e-76e7-406d-be40-24674ff9fdca" name="默认的" comment="" />
+      <created>1605103508599</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1593445042702</updated>
-      <workItem from="1593445043811" duration="1851000" />
-      <workItem from="1593446901292" duration="30000" />
-      <workItem from="1593446932693" duration="704000" />
-      <workItem from="1593505856994" duration="7548000" />
-      <workItem from="1593532908850" duration="357000" />
-      <workItem from="1593533315701" duration="3767000" />
-      <workItem from="1593608634977" duration="607000" />
-      <workItem from="1593684525009" duration="1747000" />
-      <workItem from="1593699839012" duration="11607000" />
-      <workItem from="1593963820029" duration="1383000" />
-      <workItem from="1594305173939" duration="667000" />
-      <workItem from="1594306659074" duration="997000" />
-      <workItem from="1594363449207" duration="34000" />
-      <workItem from="1594363539249" duration="599000" />
-      <workItem from="1594379237638" duration="2529000" />
-      <workItem from="1594434335952" duration="127000" />
-      <workItem from="1594434474544" duration="222000" />
-      <workItem from="1594434707956" duration="604000" />
-      <workItem from="1594439436543" duration="112000" />
-      <workItem from="1594439562818" duration="3892000" />
-      <workItem from="1594538821730" duration="23165000" />
-      <workItem from="1594722091536" duration="3384000" />
-      <workItem from="1594793010195" duration="9596000" />
-      <workItem from="1594809254494" duration="9465000" />
-      <workItem from="1594981351806" duration="1199000" />
-      <workItem from="1595054295204" duration="1080000" />
-      <workItem from="1595083024474" duration="863000" />
-      <workItem from="1595230462629" duration="92000" />
-      <workItem from="1595435293239" duration="7032000" />
-      <workItem from="1595486481764" duration="7074000" />
-      <workItem from="1595737127304" duration="4590000" />
-      <workItem from="1595775695514" duration="4107000" />
-      <workItem from="1596003824423" duration="3931000" />
-      <workItem from="1596096546405" duration="714000" />
-      <workItem from="1596112080681" duration="602000" />
-      <workItem from="1596199345620" duration="5351000" />
-      <workItem from="1596461112184" duration="921000" />
-      <workItem from="1596468735161" duration="3598000" />
-      <workItem from="1596857038848" duration="8286000" />
-      <workItem from="1596894325698" duration="4613000" />
-      <workItem from="1597034745705" duration="4204000" />
-      <workItem from="1597477306774" duration="1202000" />
-      <workItem from="1597740742317" duration="9597000" />
-      <workItem from="1598011967234" duration="5014000" />
+      <updated>1605103508599</updated>
+      <workItem from="1605103509605" duration="39000" />
+      <workItem from="1605103611666" duration="778000" />
+      <workItem from="1605104390920" duration="2734000" />
     </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1593446411827</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1593446411827</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <created>1593446752613</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1593446752613</updated>
-    </task>
-    <task id="LOCAL-00003" summary="initial commit">
-      <created>1593446986945</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1593446986945</updated>
-    </task>
-    <task id="LOCAL-00004" summary="initial commit">
-      <created>1593447007561</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1593447007561</updated>
-    </task>
-    <task id="LOCAL-00005" summary="initial commit">
-      <created>1593447573205</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1593447573205</updated>
-    </task>
-    <task id="LOCAL-00006" summary="initial commit">
-      <created>1593506401174</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1593506401174</updated>
-    </task>
-    <task id="LOCAL-00007" summary="initial commit">
-      <created>1593534594303</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1593534594303</updated>
-    </task>
-    <task id="LOCAL-00008" summary="initial commit">
-      <created>1593534845332</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1593534845332</updated>
-    </task>
-    <task id="LOCAL-00009" summary="initial commit">
-      <created>1593534989593</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1593534989593</updated>
-    </task>
-    <task id="LOCAL-00010" summary="initial commit">
-      <created>1593535055751</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1593535055751</updated>
-    </task>
-    <task id="LOCAL-00011" summary="initial commit">
-      <created>1593535103850</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1593535103850</updated>
-    </task>
-    <task id="LOCAL-00012" summary="initial commit">
-      <created>1593535111944</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1593535111944</updated>
-    </task>
-    <task id="LOCAL-00013" summary="initial commit">
-      <created>1593535147582</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1593535147582</updated>
-    </task>
-    <task id="LOCAL-00014" summary="initial commit">
-      <created>1593535195627</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1593535195627</updated>
-    </task>
-    <task id="LOCAL-00015" summary="initial commit">
-      <created>1593535328028</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1593535328028</updated>
-    </task>
-    <task id="LOCAL-00016" summary="initial commit">
-      <created>1593535429559</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1593535429559</updated>
-    </task>
-    <task id="LOCAL-00017" summary="initial commit">
-      <created>1594380744826</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1594380744826</updated>
-    </task>
-    <task id="LOCAL-00018" summary="initial commit">
-      <created>1594434289120</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1594434289120</updated>
-    </task>
-    <task id="LOCAL-00019" summary="initial commit">
-      <created>1594434350525</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1594434350525</updated>
-    </task>
-    <task id="LOCAL-00020" summary="initial commit">
-      <created>1594439508151</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1594439508151</updated>
-    </task>
-    <task id="LOCAL-00021" summary="initial commit">
-      <created>1594457883896</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1594457883896</updated>
-    </task>
-    <task id="LOCAL-00022" summary="initial commit">
-      <created>1594561689650</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1594561689650</updated>
-    </task>
-    <task id="LOCAL-00023" summary="initial commit">
-      <created>1594641631637</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1594641631637</updated>
-    </task>
-    <task id="LOCAL-00024" summary="initial commit">
-      <created>1594713225280</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1594713225280</updated>
-    </task>
-    <task id="LOCAL-00025" summary="initial commit">
-      <created>1594797028644</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1594797028644</updated>
-    </task>
-    <task id="LOCAL-00026" summary="initial commit">
-      <created>1594821688760</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1594821688761</updated>
-    </task>
-    <task id="LOCAL-00027" summary="initial commit">
-      <created>1595092764533</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1595092764533</updated>
-    </task>
-    <task id="LOCAL-00028" summary="initial commit">
-      <created>1595471984987</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1595471984987</updated>
-    </task>
-    <task id="LOCAL-00029" summary="initial commit">
-      <created>1595497750207</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1595497750208</updated>
-    </task>
-    <task id="LOCAL-00030" summary="initial commit">
-      <created>1595751195926</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1595751195926</updated>
-    </task>
-    <task id="LOCAL-00031" summary="initial commit">
-      <created>1595753049263</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1595753049263</updated>
-    </task>
-    <task id="LOCAL-00032" summary="initial commit">
-      <created>1596016917159</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1596016917159</updated>
-    </task>
-    <task id="LOCAL-00033" summary="initial commit">
-      <created>1596203979143</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1596203979143</updated>
-    </task>
-    <task id="LOCAL-00034" summary="initial commit">
-      <created>1596997571232</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1596997571232</updated>
-    </task>
-    <task id="LOCAL-00035" summary="initial commit">
-      <created>1597125952511</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1597125952511</updated>
-    </task>
-    <task id="LOCAL-00036" summary="initial commit">
-      <created>1597767632546</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1597767632546</updated>
-    </task>
-    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -453,192 +413,29 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/frontend/vue-element-admin" />
-      <path value="$PROJECT_DIR$/vue-element-admin" />
-      <path value="$PROJECT_DIR$/frontend" />
-      <path value="$PROJECT_DIR$/vue-admin-template" />
-    </ignored-roots>
-    <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="1920" height="1044" key="#ESLint" timestamp="1595471334951">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="0" y="0" width="1920" height="1044" key="#ESLint/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595471334951" />
-    <state x="2562" y="312" key="#HTTP_Proxy" timestamp="1595833130540">
+    <state x="2039" y="184" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605144328127">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2562" y="312" key="#HTTP_Proxy/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595833130540" />
-    <state x="642" y="302" key="#HTTP_Proxy/0.0.1920.1044@0.0.1920.1044" timestamp="1595054320209" />
-    <state x="1324" y="384" key="#Notifications" timestamp="1596203187461">
+    <state x="2039" y="184" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605144328127" />
+    <state x="2481" y="295" key="EnvironmentVariablesDialog" timestamp="1605144310638">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2481" y="295" key="EnvironmentVariablesDialog/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605144310638" />
+    <state x="2668" y="290" key="FileChooserDialogImpl" timestamp="1605144301313">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="280" key="FileChooserDialogImpl/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605103506851" />
+    <state x="2668" y="290" key="FileChooserDialogImpl/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605144301313" />
+    <state x="2396" y="162" key="SettingsEditor" timestamp="1605104690731">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="476" y="157" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605104335821" />
+    <state x="2396" y="162" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605104690731" />
+    <state x="785" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605103447881">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1324" y="384" key="#Notifications/0.0.1920.1044@0.0.1920.1044" timestamp="1596203187461" />
-    <state x="508" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594801347085">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="508" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1594801347085" />
-    <state x="1384" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593533858647" />
-    <state x="1653" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593447467551">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1653" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593447467551" />
-    <state x="1603" y="201" key="#run_dev" timestamp="1593534544323">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1603" y="201" key="#run_dev/0.0.2560.1044@0.0.2560.1044" timestamp="1593534544323" />
-    <state x="1144" y="118" key="#run_server" timestamp="1594380310074">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="1144" y="118" key="#run_server/0.0.1920.1044@0.0.1920.1044" timestamp="1594380310074" />
-    <state x="843" y="189" key="#检查" timestamp="1593684903119">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="843" y="189" key="#检查/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593684903119" />
-    <state x="1544" y="204" key="#检查/0.0.2560.1044@0.0.2560.1044" timestamp="1593526538839" />
-    <state x="236" y="370" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593759358536">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="236" y="370" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1593759358536" />
-    <state x="1560" y="77" key="CommitChangelistDialog2" timestamp="1593446976517">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1560" y="77" key="CommitChangelistDialog2/0.0.2560.1044@0.0.2560.1044" timestamp="1593446976517" />
-    <state x="512" y="90" width="2048" height="835" key="DiffContextDialog" timestamp="1593447302848">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="512" y="90" width="2048" height="835" key="DiffContextDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593447302848" />
-    <state x="0" y="0" width="1920" height="1044" key="EnvironmentVariablesDialog" timestamp="1594380858525">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="0" y="0" width="1920" height="1044" key="EnvironmentVariablesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1594380858525" />
-    <state x="1707" y="280" key="FileChooserDialogImpl" timestamp="1594809314151">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1280" y="280" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1594801288101" />
-    <state x="1707" y="280" key="FileChooserDialogImpl/0.0.2560.1044@0.0.2560.1044" timestamp="1594809314151" />
-    <state x="1795" y="422" width="249" height="304" key="Github.ShareDialog" timestamp="1593446658633">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1795" y="422" width="249" height="304" key="Github.ShareDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446658633" />
-    <state x="1692" y="181" key="Github.UntrackedFilesDialog" timestamp="1593446325572">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1692" y="181" key="Github.UntrackedFilesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446325572" />
-    <state width="1232" height="274" key="GridCell.Tab.0.bottom" timestamp="1598627755929">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state width="1872" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595766043721" />
-    <state width="912" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351891" />
-    <state width="1232" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1044@0.0.2560.1044" timestamp="1598627755929" />
-    <state width="1232" height="274" key="GridCell.Tab.0.center" timestamp="1598627755929">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state width="1872" height="285" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595766043721" />
-    <state width="912" height="274" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351889" />
-    <state width="1232" height="274" key="GridCell.Tab.0.center/0.0.2560.1044@0.0.2560.1044" timestamp="1598627755929" />
-    <state width="1232" height="274" key="GridCell.Tab.0.left" timestamp="1598627755929">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state width="1872" height="285" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595766043721" />
-    <state width="912" height="274" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351888" />
-    <state width="1232" height="274" key="GridCell.Tab.0.left/0.0.2560.1044@0.0.2560.1044" timestamp="1598627755929" />
-    <state width="1232" height="274" key="GridCell.Tab.0.right" timestamp="1598627755929">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state width="1872" height="285" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595766043721" />
-    <state width="912" height="274" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1594801351890" />
-    <state width="1232" height="274" key="GridCell.Tab.0.right/0.0.2560.1044@0.0.2560.1044" timestamp="1598627755929" />
-    <state width="1872" height="338" key="GridCell.Tab.1.bottom" timestamp="1594713238945">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238945" />
-    <state width="1872" height="338" key="GridCell.Tab.1.center" timestamp="1594713238945">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238945" />
-    <state width="1872" height="338" key="GridCell.Tab.1.left" timestamp="1594713238944">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238944" />
-    <state width="1872" height="338" key="GridCell.Tab.1.right" timestamp="1594713238945">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238945" />
-    <state width="1872" height="338" key="GridCell.Tab.2.bottom" timestamp="1594713238946">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.2.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238946" />
-    <state width="1872" height="338" key="GridCell.Tab.2.center" timestamp="1594713238945">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.2.center/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238945" />
-    <state width="1872" height="338" key="GridCell.Tab.2.left" timestamp="1594713238945">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.2.left/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238945" />
-    <state width="1872" height="338" key="GridCell.Tab.2.right" timestamp="1594713238946">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.2.right/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238946" />
-    <state width="1872" height="338" key="GridCell.Tab.3.bottom" timestamp="1594713238947">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.3.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238947" />
-    <state width="1872" height="338" key="GridCell.Tab.3.center" timestamp="1594713238947">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.3.center/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238947" />
-    <state width="1872" height="338" key="GridCell.Tab.3.left" timestamp="1594713238946">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.3.left/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238946" />
-    <state width="1872" height="338" key="GridCell.Tab.3.right" timestamp="1594713238947">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state width="1872" height="338" key="GridCell.Tab.3.right/0.0.1920.1044@0.0.1920.1044" timestamp="1594713238947" />
-    <state x="1796" y="285" key="RollbackChangesDialog" timestamp="1593446832659">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1796" y="285" key="RollbackChangesDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446832659" />
-    <state x="851" y="237" key="SettingsEditor" timestamp="1595941198039">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="643" y="134" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595472048315" />
-    <state x="2771" y="245" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595833311977" />
-    <state x="851" y="237" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1595941198039" />
-    <state x="430" y="147" key="SettingsEditor/0.0.2560.1044@0.0.2560.1044" timestamp="1594818044287" />
-    <state x="1772" y="434" key="VCS.ChangelistChooser" timestamp="1593446847843">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1772" y="434" key="VCS.ChangelistChooser/0.0.2560.1044@0.0.2560.1044" timestamp="1593446847843" />
-    <state x="1758" y="393" key="VCS.EditChangelistDialog" timestamp="1593446781547">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1758" y="393" key="VCS.EditChangelistDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593446781547" />
-    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1597767635224">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595497753058" />
-    <state x="1110" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597767635224" />
-    <state x="1520" y="258" key="Vcs.Push.Dialog.v2/0.0.2560.1044@0.0.2560.1044" timestamp="1594821691461" />
-    <state x="1380" y="100" width="1070" height="844" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593447302849">
-      <screen x="0" y="0" width="2560" height="1044" />
-    </state>
-    <state x="1380" y="100" width="1070" height="844" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.2560.1044@0.0.2560.1044" timestamp="1593447302849" />
-    <state x="1259" y="435" width="362" height="173" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597741181529">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="1259" y="435" width="362" height="173" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596798506960" />
-    <state x="1259" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597741181529" />
-    <state x="1679" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1044@0.0.2560.1044" timestamp="1595669634097" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1597037992335">
-      <screen x="0" y="0" width="1920" height="1044" />
-    </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1597037992335" />
+    <state x="785" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605103447881" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_app$Flask__backend_manage_py_.coverage" NAME="Flask (backend/manage.py) Coverage Results" MODIFIED="1594801293876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
