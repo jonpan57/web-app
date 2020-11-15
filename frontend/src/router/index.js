@@ -73,10 +73,10 @@ export const constantRoutes = [
         meta: { title: '网络设备', icon: 'el-icon-connection' }
       },
       {
-        path: 'physical',
-        name: 'Physical',
-        component: () => import('@/views/asset/physical/index'),
-        meta: { title: '物理机', icon: 'el-icon-monitor' }
+        path: 'server',
+        name: 'Server',
+        component: () => import('@/views/asset/server/index'),
+        meta: { title: '服务器', icon: 'el-icon-monitor' }
       },
       {
         path: 'storage',
@@ -113,9 +113,9 @@ export const constantRoutes = [
         meta: { title: '网络设备', icon: 'el-icon-connection' }
       },
       {
-        path: 'physical',
+        path: 'server',
         name: 'Physical',
-        component: () => import('@/views/asset/physical/index'),
+        component: () => import('@/views/asset/server/index'),
         meta: { title: '物理机', icon: 'el-icon-monitor' }
       },
       {

@@ -13,16 +13,33 @@
     <list default="true" id="588ccd5e-76e7-406d-be40-24674ff9fdca" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/models/asset.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/asset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/asset/physical/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/asset/server/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="c29ee47d-d726-4485-9da6-dd9461e93cdb" />
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="8c2c2e6a-8dbf-453a-b54a-e99ea264bbc1" />
+  </component>
+  <component name="JupyterTrust" id="53c65882-88e6-4f91-9f3f-f90ec00695db" />
   <component name="ProjectId" id="1k9CdfWmCBmxZHEJHM6BqleVlWC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,7 +55,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.npm dev">
@@ -93,6 +110,10 @@
       <workItem from="1605103509605" duration="39000" />
       <workItem from="1605103611666" duration="778000" />
       <workItem from="1605104390920" duration="15514000" />
+      <workItem from="1605183259553" duration="3128000" />
+      <workItem from="1605186896394" duration="1536000" />
+      <workItem from="1605355353191" duration="931000" />
+      <workItem from="1605414236178" duration="3051000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1605144666510</created>
@@ -145,40 +166,47 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2039" y="184" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605144328127">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="159" y="179" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605356463715">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="2039" y="184" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605144328127" />
+    <state x="159" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1605356463715" />
     <state x="2481" y="295" key="EnvironmentVariablesDialog" timestamp="1605144310638">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2481" y="295" key="EnvironmentVariablesDialog/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605144310638" />
-    <state x="2668" y="290" key="FileChooserDialogImpl" timestamp="1605144301313">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="997" y="282" key="FileChooserDialogImpl" timestamp="1605183655658">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="748" y="280" key="FileChooserDialogImpl/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605103506851" />
     <state x="2668" y="290" key="FileChooserDialogImpl/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605144301313" />
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1605146459441">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="997" y="282" key="FileChooserDialogImpl/0.0.2560.1050@0.0.2560.1050" timestamp="1605183655658" />
+    <state width="1238" height="154" key="GridCell.Tab.0.bottom" timestamp="1605186884389">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605146459441" />
-    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1605146459441">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1238" height="154" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1605186884389" />
+    <state width="1238" height="154" key="GridCell.Tab.0.center" timestamp="1605186884389">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605146459441" />
-    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1605146459441">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1238" height="154" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1605186884389" />
+    <state width="1238" height="154" key="GridCell.Tab.0.left" timestamp="1605186884389">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605146459441" />
-    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1605146459441">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1238" height="154" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1605186884389" />
+    <state width="1238" height="154" key="GridCell.Tab.0.right" timestamp="1605186884389">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605146459441" />
-    <state x="2396" y="162" key="SettingsEditor" timestamp="1605104690731">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1238" height="154" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1605186884389" />
+    <state x="1213" y="145" key="SettingsEditor" timestamp="1605425490095">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="476" y="157" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605104335821" />
     <state x="2396" y="162" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605104690731" />
+    <state x="1213" y="145" key="SettingsEditor/0.0.2560.1050@0.0.2560.1050" timestamp="1605425490095" />
     <state x="560" y="267" key="Vcs.Push.Dialog.v2" timestamp="1605174378514">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

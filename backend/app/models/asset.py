@@ -2,11 +2,6 @@ from datetime import datetime
 from ...app import db
 
 '''
-server：服务器
-    physical：物理机
-    virtual：虚拟机
-    container：容器
-    storage：存储设备
 network：网络设备
     repeater:中继
         hub:集线器
@@ -16,6 +11,12 @@ network：网络设备
     gateway:网关
     firewall：防火墙
     switch：交换机
+    
+server：服务器
+    server：物理机
+    virtual：虚拟机
+    container：容器
+    storage：存储设备
 
 综合布线
     语音配线架
@@ -130,11 +131,12 @@ class AssetHostInterface(db.Model):  # 主机接口
     host = db.Column(db.Integer, db.ForeignKey('host.id'))
 
 
-class AssetServer(db.Model):
-    __tablename__ = 'asset_server'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-
-
-class AssetNetwork(db.Model):
+class Network(BaseModel):
     __tablename__ = 'asset_network'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+
+
+class Server(BaseModel):
+    __tablename__ = 'asset_server'
+
+class Storage(BaseModel):
+    __tablename__ = 'asset_network'
