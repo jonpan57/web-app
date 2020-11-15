@@ -1,7 +1,0 @@
-Flask
-Flask-Cors
-Flask-Login
-Flask-Script
-Flask-Migrate
-Flask-RESTful
-Flask-SQLAlchemy

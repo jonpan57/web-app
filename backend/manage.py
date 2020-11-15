@@ -1,25 +1,22 @@
-from .app import create_app, db
-from flask_script import Manager, Shell
-from flask_migrate import MigrateCommand
-
-import config
-
-def _make_context():
-    return dict(app=app, db=db)
+#!/usr/bin/env python
+"""Django's command-line utility for administrative tasks."""
+import os
+import sys
 
 
-app = create_app(config)
-manager = Manager(app)
-manager.add_command('shell', Shell(make_context=_make_context()))
-manager.add_command('db', MigrateCommand)
-'''
-启动命令：
-    runserver
-数据库命令：
-    install    创建数据库文件
-    migrate    迁移数据库操作 
-    upgrade    更新数据库内容
-    downgrade  撤销数据库操作
-'''
+def main():
+    """Run administrative tasks."""
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoProject.settings')
+    try:
+        from django.core.management import execute_from_command_line
+    except ImportError as exc:
+        raise ImportError(
+            "Couldn't import Django. Are you sure it's installed and "
+            "available on your PYTHONPATH environment variable? Did you "
+            "forget to activate a virtual environment?"
+        ) from exc
+    execute_from_command_line(sys.argv)
+
+
 if __name__ == '__main__':
-    manager.run()
+    main()
