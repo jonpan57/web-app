@@ -131,12 +131,24 @@ class AssetHostInterface(db.Model):  # 主机接口
     host = db.Column(db.Integer, db.ForeignKey('host.id'))
 
 
+class Device(BaseModel):
+    __tablename__ = 'asset_device'
+    name = db.Column(db.String(8), unique=True, nullable=False)  # 设备名称
+    alias = db.Column(db.String(8))  # 设备别名，默认为name的值.
+    category = db.Column(db.Integer)  # 设备分类：网络设备、服务器、存储设备
+    type = db.Column(db.Integer)  # 设备类型
+    vendor = db.Column(db.String(8))  # 设备供应商
+    model = db.Column(db.String(8))  # 设备型号
+    status = db.Column(db.Integer)  # 设备状态
+
+
 class Network(BaseModel):
     __tablename__ = 'asset_network'
 
 
 class Server(BaseModel):
     __tablename__ = 'asset_server'
+
 
 class Storage(BaseModel):
     __tablename__ = 'asset_network'

@@ -13,9 +13,6 @@
     <list default="true" id="588ccd5e-76e7-406d-be40-24674ff9fdca" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/models/asset.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/asset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/asset/physical/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/asset/server/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
       <workItem from="1605183259553" duration="3128000" />
       <workItem from="1605186896394" duration="1536000" />
       <workItem from="1605355353191" duration="931000" />
-      <workItem from="1605414236178" duration="3051000" />
+      <workItem from="1605414236178" duration="5954000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1605144666510</created>
@@ -143,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605174377432</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update">
+      <created>1605425515964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605425515964</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,11 +211,12 @@
     <state x="476" y="157" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605104335821" />
     <state x="2396" y="162" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605104690731" />
     <state x="1213" y="145" key="SettingsEditor/0.0.2560.1050@0.0.2560.1050" timestamp="1605425490095" />
-    <state x="560" y="267" key="Vcs.Push.Dialog.v2" timestamp="1605174378514">
-      <screen x="0" y="0" width="1920" height="1044" />
+    <state x="747" y="269" key="Vcs.Push.Dialog.v2" timestamp="1605425518016">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="560" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1605174378514" />
     <state x="2480" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605163533199" />
+    <state x="747" y="269" key="Vcs.Push.Dialog.v2/0.0.2560.1050@0.0.2560.1050" timestamp="1605425518016" />
     <state x="785" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605103447881">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
